@@ -1,4 +1,4 @@
-const url = "http://localhost:8888";
+const url = "https://airline-gx52.onrender.com/";
 
 export const getLocation = async (payload, option = {}) => {
   const api = `${url}/location/list`;
