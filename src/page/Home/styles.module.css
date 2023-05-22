@@ -1,0 +1,30 @@
+.layout {
+  height: 1000px;
+}
+
+.navbar {
+  min-height: 64px;
+  background-color: rgba(7, 22, 36, 0.35);
+  width: 100%;
+  position: fixed;
+  z-index: 70;
+  top: 0;
+}
+
+.form_flight {
+    height: calc(100% - 64px);
+  width: 100%;
+  position: absolute;
+  top: 64px;
+  z-index: 1;
+}
+
+.form_flight_content {
+    background-color: rgba(7,22,36,.75);
+    min-height: 224px;
+    min-width: 1040px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+}
